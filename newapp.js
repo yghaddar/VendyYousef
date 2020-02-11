@@ -5,17 +5,12 @@ function max(numbers) {
   let maxNum = -99999;
   let i = 0;
   while(i < numbers.length){
-
-    if(maxNum <= numbers[i]){
+    if(maxNum >= numbers[i]){
       maxNum = numbers[i];
     }
-    i++;
   }
   console.log(maxNum);
 }
   
 console.log(max([1,2,3,4]));
-
-
-
 
