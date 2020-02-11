@@ -19,3 +19,13 @@ console.log(max([1,2,3,4]));
 
 
 
+function min(numbers) {
+  let minNum = numbers[0]
+  let i = 0
+  while (i < numbers.length){
+    if (numbers[i] > minNum) {
+      minNum = numbers[i]
+    }
+    i++
+  }
+}
