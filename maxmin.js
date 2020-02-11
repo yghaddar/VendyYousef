@@ -28,8 +28,7 @@ function min(numbers) {
       minNum = numbers[i]
     }
     i++
-    return minNum
   }
-  console.log(minNum);
+  return minNum
 }
-console.log(min([1,2,3,4]));
+console.log(min([30,80,20,70]));
