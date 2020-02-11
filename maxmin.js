@@ -20,15 +20,15 @@
 
 
 
-function min(numbers) {
-  let minNum = numbers[0]
-  let i = 0
-  while (i < numbers.length){
-    if (numbers[i] < minNum) {
-      minNum = numbers[i]
-    }
-    i++
-  }
-  return minNum
-}
-console.log(min([30,80,20,70]));
+// function min(numbers) {
+//   let minNum = numbers[0]
+//   let i = 0
+//   while (i < numbers.length){
+//     if (numbers[i] < minNum) {
+//       minNum = numbers[i]
+//     }
+//     i++
+//   }
+//   return minNum
+// }
+// console.log(min([30,80,20,70]));
