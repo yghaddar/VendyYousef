@@ -1,6 +1,6 @@
 'use strict';
 
-//make student reports 
+//first drill
 
 // function makeStudentReport(data){
 // // let arr = [] 
@@ -33,35 +33,36 @@
 // console.log(makeStudentReport(testData));
 
 
+//second drill
 
-const studentData = [
-  {
-    name: 'Tim',
-    status: 'Current student',
-    course: 'Biology',
-  },
-  {
-    name: 'Sue',
-    status: 'Withdrawn',
-    course: 'Mathematics',
-  },
-  {
-    name: 'Liz',
-    status: 'On leave',
-    course: 'Computer science',
-  },
-];
+// const studentData = [
+//   {
+//     name: 'Tim',
+//     status: 'Current student',
+//     course: 'Biology',
+//   },
+//   {
+//     name: 'Sue',
+//     status: 'Withdrawn',
+//     course: 'Mathematics',
+//   },
+//   {
+//     name: 'Liz',
+//     status: 'On leave',
+//     course: 'Computer science',
+//   },
+// ];
 
-function enrollInSummerSchool(students){
-  let result = []
-  for (let i = 0; i < students.length; i++){
-    students[i].status = "In summer school"
-  }
-return students
-}
-
-
-
-console.log(enrollInSummerSchool(studentData))
+// function enrollInSummerSchool(students){
+//   let result = []
+//   for (let i = 0; i < students.length; i++){
+//     students[i].status = "In summer school"
+//   }
+// return students
+// }
 
 
+
+// console.log(enrollInSummerSchool(studentData))
+
+//third drill 
