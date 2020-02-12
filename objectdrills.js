@@ -12,18 +12,88 @@
 // console.log(loaf.hydration());
 
 //second exercise
-const obj = {
-  foo: 'hi',
-  bar: 'no',
-  fum: 5,
-  quux: 2,
-  spam: 1
-};
+// const obj = {
+//   foo: 'hi',
+//   bar: 'no',
+//   fum: 5,
+//   quux: 2,
+//   spam: 1
+// };
 
 
-for(const prop in obj){
-  console.log(`${prop} and ${obj[prop]}`);
+// for(const prop in obj){
+//   console.log(`${prop} and ${obj[prop]}`);
+// }
+
+//third exercise
+
+// let food = {
+//   meals: ['breakfast', 'second breakfast', 'elevenses', 'lunch', 
+//   'afternoon tea', 'dinner', 'supper']
+// }
+
+// console.log(food.meals[3])
+
+// fourth exercise
+
+function Person(name, jobTitle, boss) {
+  this.name = name;
+  this.jobTitle = jobTitle;
+  this.boss = boss;
 }
 
-//arrays in objects 
+let person1 = new Person('luke', 'jedi', 'yoda')
+let person2 = new Person('han', 'pilot', 'no one')
+let person3 = new Person('chewy', 'bear', 'han')
 
+let newArray = [person1, person2, person3]
+for (let i = 0; i < newArray.length; i++){
+  console.log(
+  `My name is ${newArray[i].name}, 
+  I am a ${newArray[i].jobTitle} 
+  and report I to ${newArray[i].boss}`)
+}
+
+//fifth exercise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////
+
+
+// for (let prop in newArray){
+//   console.log(newArray[prop])
+// }
+
+
+// let person1 = {
+//   name: 'luke',
+//   jobTitle: 'jedi'
+// }
+// let person2 = {
+//   name: 'han',
+//   jobTitle: 'pilot'
+// }
+// let person3 = {
+//   name: "chewy",
+//   jobTitle: "bear"
+// }
+
+// let newArray = [person1, person2, person3]
+
+// for (let prop in newArray){
+//   console.log(newArray[prop])
+// }
